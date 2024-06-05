@@ -1,13 +1,13 @@
 {
   "name": "portfolio-next.js",
-  "homepage": "https://misha-vynnyk.github.io/portfolio-next.js",
+  "homepage": "https://misha-vynnyk.github.io/portfolio-next.js/",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "build": "next build",
+    "export": "next export",
+    "deploy": "gh-pages -d out",
     "start": "next start",
     "lint": "next lint"
   },
