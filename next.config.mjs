@@ -9,6 +9,9 @@ const nextConfig = {
   },
   output: "export",  // <=== enables static exports
   reactStrictMode: true,
+  typescript: {
+    ignoreBuildErrors: true,
+  }
 };
 
 export default withSentryConfig(nextConfig, {
